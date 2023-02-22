@@ -51,6 +51,7 @@ Clean up Resources
 </p>
 <p>
 Step 1
+ 
 Create a Resource Group
 Create a Windows 10 Virtual Machine (VM)
 While creating the VM, select the previously created Resource Group
