@@ -24,12 +24,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
+<h2> Six Observation Steps</h2>
 
 - Step 1
+Create Virtual Machines and Resource groups in Azure
 - Step 2
+Download & Install and Run Wireshark
 - Step 3
+(Observe ICMP Traffic)
 - Step 4
+(Observe SSH Traffic)
+- Step 5
+(Observe DHCP Traffic)
+- Step 6
+ (Observe DNS Traffic)
+- Step 7
+(Observe RDP Traffic)
+- Step 8
+Clean up Resources
+
 
 <h2>Actions and Observations</h2>
 
