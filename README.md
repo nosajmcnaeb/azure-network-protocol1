@@ -155,8 +155,7 @@ Delete the Resource Group(s) created at the beginning of this lab
 Verify Resource Group Deletion
  
  <p>
-<img src="
-https://imgur.com/a/VYYzGxc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/VYYzGxc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
