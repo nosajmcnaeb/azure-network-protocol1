@@ -65,11 +65,11 @@ Observe Your Virtual Network within Network Watcher
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/VYYzGxc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2
- 
+ https://imgur.com/a/VYYzGxc
 Use Remote Desktop to connect to your Windows 10 Virtual Machine
 Within your Windows 10 Virtual Machine, Install Wireshark
 Open Wireshark and filter for ICMP traffic only
