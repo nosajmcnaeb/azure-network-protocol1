@@ -111,7 +111,7 @@ Stop the ping activity
  
 Back in Wireshark, filter for SSH traffic only
   <p>
-<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LJTtnQm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
@@ -125,16 +125,19 @@ Exit the SSH connection by typing ‘exit’ and pressing [Enter]
  
 Back in Wireshark, filter for DHCP traffic only
  <p>
-<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TMIQFRZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 Observe the DHCP traffic appearing in WireShark
 
- 
+  <p>
+<img src="https://i.imgur.com/ZCDHXJg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Back in Wireshark, filter for DNS traffic only
   <p>
-<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/z72rGVA.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
@@ -143,7 +146,7 @@ Observe the DNS traffic being show in WireShark
 
 Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
   <p>
-<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VgWNl1I.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
@@ -154,7 +157,10 @@ Answer: because the RDP (protocol) is constantly showing you a live stream from 
 Close your Remote Desktop connection
 Delete the Resource Group(s) created at the beginning of this lab
 Verify Resource Group Deletion
- 
+  <p>
+<img src="https://i.imgur.com/InYL64m.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
 
 
 </p>
