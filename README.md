@@ -7,10 +7,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -47,7 +43,7 @@ Clean up Resources
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LwgiusK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 1
@@ -62,16 +58,24 @@ Observe Your Virtual Network within Network Watcher
 .
 </p>
 <br />
+<p>
+<img src="https://i.imgur.com/GZcq7QD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 
 <p>
-<img src="https://imgur.com/a/VYYzGxc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2
- https://imgur.com/a/VYYzGxc
 Use Remote Desktop to connect to your Windows 10 Virtual Machine
-Within your Windows 10 Virtual Machine, Install Wireshark
+Within your Windows 10 Virtual Machine, 
+ <p>
+<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install Wireshark
 Open Wireshark and filter for ICMP traffic only
 Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM
 Observe ping requests and replies within WireShark
@@ -145,7 +149,7 @@ Answer: because the RDP (protocol) is constantly showing you a live stream from 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7FUjsl4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 1
