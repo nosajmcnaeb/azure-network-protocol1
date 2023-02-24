@@ -42,10 +42,7 @@ Clean up Resources
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/LwgiusK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 Step 1
  
 Create a Resource Group
@@ -55,19 +52,7 @@ While creating the VM, allow it to create a new Virtual Network (Vnet) and Subne
 Create a Linux (Ubuntu) VM
 While create the VM, select the previously created Resource Group and Vnet
 Observe Your Virtual Network within Network Watcher
-.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/GZcq7QD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
-
-<p>
-<img src="https://i.imgur.com/kcgxuQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Step 2
 Use Remote Desktop to connect to your Windows 10 Virtual Machine
 Within your Windows 10 Virtual Machine, 
